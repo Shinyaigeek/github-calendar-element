@@ -5,6 +5,7 @@ Web components for github-calendar
 This components dependes on and inspired by https://github.com/Bloggify/github-calendar
 ## Example
 
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,6 +25,7 @@ This components dependes on and inspired by https://github.com/Bloggify/github-c
 
   </body>
 </html>
+```
 
 ## Usage
 
