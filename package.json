@@ -6,15 +6,15 @@
   "author": "shinyaigeek <philispaxil@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@swc/cli": "^0.1.45",
-    "@swc/core": "^1.2.59",
+    "parcel-bundler": "^1.12.5",
     "rollup-plugin-typescript2": "^0.30.0",
     "typescript": "^4.3.2"
   },
+  "browserslist": [
+    "last 2 chrome versions"
+  ],
   "scripts": {
-    "build:esm:legacy": "swc ./src/main.ts -o lib/main.legacy.js --config-file .legacy.swcrc",
-    "build:esm": "swc ./src/main.ts -o lib/main.js --config-file .modern.swcrc",
-    "build": "yarn build:esm && yarn build:esm:legacy"
+    "build": "parcel build src/main.ts --out-dir lib --bundle-node-modules"
   },
   "dependencies": {
     "github-calendar": "^2.2.7"
