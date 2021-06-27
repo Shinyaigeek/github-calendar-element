@@ -1,7 +1,7 @@
 {
   "name": "github-calendar-element",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/main.js",
   "repository": "https://github.com/Shinyaigeek/github-calendar-element.git",
   "author": "shinyaigeek <philispaxil@gmail.com>",
   "license": "MIT",
@@ -12,6 +12,9 @@
   },
   "browserslist": [
     "last 2 chrome versions"
+  ],
+  "files": [
+    "lib/main.js"
   ],
   "scripts": {
     "build": "parcel build src/main.ts --out-dir lib --bundle-node-modules"
