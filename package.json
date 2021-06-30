@@ -5,6 +5,7 @@
   "repository": "https://github.com/Shinyaigeek/github-calendar-element.git",
   "author": "shinyaigeek <philispaxil@gmail.com>",
   "license": "MIT",
+  "types": "index.d,ts",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "rollup-plugin-typescript2": "^0.30.0",
@@ -14,7 +15,8 @@
     "last 2 chrome versions"
   ],
   "files": [
-    "lib/main.js"
+    "lib/main.js",
+    "index.d.ts"
   ],
   "scripts": {
     "build": "parcel build src/main.ts --out-dir lib --bundle-node-modules"
